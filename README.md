@@ -122,9 +122,9 @@ Click `Create`, a new window should appear
    ![](https://i.imgur.com/IwKmPBf.png)
    You can use the `Input` drop-down (That is showing `T.16000M` in the screenshot above) to select which of your input devices the input comes from
 3. You can tweak the mapping using the settings in the plugin
-   Invert inverts the axis
-   Sensitivity configures a sensitivity curve for the mapping - 50% sensitivity will mean that at low stick deflections, the amount of output will be reduced
-   Deadzone configures a deadzone for the axis
+   Invert inverts the axis  
+   Sensitivity configures a sensitivity curve for the mapping - 50% sensitivity will mean that at low stick deflections, the amount of output will be reduced  
+   Deadzone configures a deadzone for the axis  
 4. You do not need to quit MW5 as you make each mapping, you can tab out of MW5, alter settings in UCR, then tab back into MW5
 5. **BE SURE TO SAVE THE PROFILE IN UCR AS YOU MAKE CHANGES, IT CAN SOMETIMES LOCK UP AND YOU COULD LOSE YOUR CHANGES**
 6. After making each change, be sure to click the Play icon to reactivate the profile before tabbing back into MW5
