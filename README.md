@@ -86,13 +86,17 @@ Click `Create`, a new window should appear
 
 1. Click the + next to Axis To Axis in the Plugins list, type X into the Mapping Name box
    ![](https://i.imgur.com/6cvYcJj.png)
+
 2. Map the X axis of one of your sticks to the X axis of the vJoy stick
    ![](https://i.imgur.com/oz9aczu.gif)
+
 3. Click the Save button (Floppy disk icon) in the top left of the window
+
 4. Click the Play icon next to the Save button
    The X axis of your stick should now operate the X axis of the vJoy stick.
-   You can use the vJoy monitor to verify that this is the case - it should look like this when you move the X axis of your stick:
+   You can use the vJoy monitor to verify that this is the case - it should look like this when you move the X axis of your stick:  
    ![](https://i.imgur.com/m2vZPyZ.gif)
+
    If it does not, ensure that you closed the vJoy Feeder window that you had open before
 
 
