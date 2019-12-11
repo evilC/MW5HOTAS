@@ -121,7 +121,7 @@ Click `Create`, a new window should appear
    **Only use the first 4 vJoy axes (X, Y, Z and Rx)**. X maps to `Joystick Axis 1` in the MW5 menu, Y maps to `Joystick Axis 2`, etc...
    ![](https://i.imgur.com/IwKmPBf.png)
    You can use the `Input` drop-down (That is showing `T.16000M` in the screenshot above) to select which of your input devices the input comes from
-3. You can tweak the mapping using the settings in the plugin
+3. You can tweak the mapping using the settings in the plugin  
    Invert inverts the axis  
    Sensitivity configures a sensitivity curve for the mapping - 50% sensitivity will mean that at low stick deflections, the amount of output will be reduced  
    Deadzone configures a deadzone for the axis  
