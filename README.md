@@ -114,9 +114,8 @@ The MW5HOTAS tool creates a custom `HOTASMappings.Remap` file that tells MW5 to 
 1. Tab back into UCR and click the Stop icon at the top the profile  
    **You will not be able to edit the UCR profile while it is active!**
 2. Use additional `Axis To Axis` plugins to map physical stick axes to vJoy axes (As in Step 4.1 above)  
-   **Only use the first 4 vJoy axes (X, Y, Z and Rx)**. X maps to `Joystick Axis 1` in the MW5 menu, Y maps to `Joystick Axis 2`, etc...
-   ![](https://i.imgur.com/IwKmPBf.png)
-   You can use the `Input` drop-down (That is showing `T.16000M` in the screenshot above) to select which of your input devices the input comes from
+   **Only use the first 4 vJoy axes (X, Y, Z and Rx)**. X maps to `Joystick Axis 1` in the MW5 menu, Y maps to `Joystick Axis 2`, etc...  
+   ![](https://i.imgur.com/IwKmPBf.png)You can use the `Input` drop-down (That is showing `T.16000M` in the screenshot above) to select which of your input devices the input comes from
 3. You can tweak the mapping using the settings in the plugin  
    Invert inverts the axis  
    Sensitivity configures a sensitivity curve for the mapping - 50% sensitivity will mean that at low stick deflections, the amount of output will be reduced  
