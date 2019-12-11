@@ -25,16 +25,18 @@ We will be setting up MW5 to ignore all your physical sticks and instead take in
 
 5. Verify that vJoy is working
 
-   Open the vJoy feeder
-   Start > vJoy Feeder (Demo)
+   Open the vJoy feeder  
+   Start > vJoy Feeder (Demo)  
    ![](https://i.imgur.com/kK7HUJW.png)
    Drag sliders around, you should see the vJoy monitor update accordingly
 
 6. Verify that windows can see the vJoy stick and that it updates OK
 
-   Start > joy.cpl
-   Double click the "vJoy Device" entry in the Game Controllers window
-   ![](https://i.imgur.com/wgywg3Q.png)Drag sliders in the vJoy Feeder, then click on the `vJoy Device Properties` window, you should see the state change.
+   Start > joy.cpl  
+   Double click the "vJoy Device" entry in the Game Controllers window  
+   ![](https://i.imgur.com/wgywg3Q.png)
+
+   Drag sliders in the vJoy Feeder, then click on the `vJoy Device Properties` window, you should see the state change.
    ![](https://i.imgur.com/VwYshmY.gif)
 
 7. vJoy is now installed and working OK, **CLOSE THE vJOY FEEDER WINDOW**
