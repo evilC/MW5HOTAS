@@ -28,6 +28,7 @@ We will be setting up MW5 to ignore all your physical sticks and instead take in
    Open the vJoy feeder  
    Start > vJoy Feeder (Demo)  
    ![](https://i.imgur.com/kK7HUJW.png)
+
    Drag sliders around, you should see the vJoy monitor update accordingly
 
 6. Verify that windows can see the vJoy stick and that it updates OK
