@@ -23,7 +23,7 @@ We will be setting up MW5 to ignore all your physical sticks and instead take in
    Start > vJoy Monitor  
    ![](https://i.imgur.com/TAmtjsW.png)
 
-5. Verify that vJoy is working
+5. Verify that vJoy is working  
 
    Open the vJoy feeder  
    Start > vJoy Feeder (Demo)  
@@ -31,7 +31,7 @@ We will be setting up MW5 to ignore all your physical sticks and instead take in
 
    Drag sliders around, you should see the vJoy monitor update accordingly
 
-6. Verify that windows can see the vJoy stick and that it updates OK
+6. Verify that windows can see the vJoy stick and that it updates OK  
 
    Start > joy.cpl  
    Double click the "vJoy Device" entry in the Game Controllers window  
@@ -48,9 +48,9 @@ We will be setting up MW5 to ignore all your physical sticks and instead take in
 
 The MW5HOTAS tool creates a custom `HOTASMappings.Remap` file that tells MW5 to ignore all the input coming from your physical sticks and instead only take input from the vJoy stick
 
-1. Download a release of MW5HOTAS [from the releases page](https://github.com/evilC/MW5HOTAS/releases).
+1. Download a release of MW5HOTAS [from the releases page](https://github.com/evilC/MW5HOTAS/releases).  
    **DO NOT use the green "Clone or Download" button on this page!**
-2. Unblock the zip
+2. Unblock the zip  
    Right-click the zip, select properties, and check the `Unblock` box in the bottom right corner if it exists
    ![](https://i.imgur.com/ACVCr7N.png)
 3. Unzip the zip to a folder of your choice
@@ -58,7 +58,7 @@ The MW5HOTAS tool creates a custom `HOTASMappings.Remap` file that tells MW5 to 
 5. Run `MW5HOTAS.exe`, you should see something like this:
    ![](https://i.imgur.com/p2nL0hO.png)
    You should see one line per device that you had plugged in (eg above, I have 3 devices - `WootingTwo`, `T.16000M` and `TWCS Throttle`)
-6. Hit ENTER to exit, then open the folder where your MW5 settings file is located
+6. Hit ENTER to exit, then open the folder where your MW5 settings file is located  
    `AppData\Local\MW5Mercs\Saved\SavedHOTAS`
 7. Back up your old `HOTASMappings.Remap` file
 8. Copy the `HOTASMappings.Remap` file that `MW5HOTAS.exe` created from the MW5HOTAS folder to the MW5 `SavedHOTAS` folder
@@ -68,17 +68,13 @@ The MW5HOTAS tool creates a custom `HOTASMappings.Remap` file that tells MW5 to 
 
 ### Step 3 - Install UCR and create a profile for MW5
 
-Download UCR from the [UCR release page](https://github.com/Snoothy/UCR/releases)
-
-Unblock the UCR zip as you did with the MW5HOTAS zip (Right click the zip, properties, check the unblock box)
-
-Extract the UCR zip to a folder, and run `UCR.exe`![](https://i.imgur.com/2AtcFGC.png)
-
-Click the + button next to `Profiles`, name it `MW5`, then in the left `Input Devices` column, check all the sticks you wish to use with MW5 and in the right `Output Devices` column, check `vJoy Stick 1`
-![](https://i.imgur.com/RhVaep0.gif)
-
-Click `Create`, a new window should appear
-![](https://i.imgur.com/VtXf242.png)
+1. Download UCR from the [UCR release page](https://github.com/Snoothy/UCR/releases)
+2. Unblock the UCR zip as you did with the MW5HOTAS zip (Right click the zip, properties, check the unblock box)
+3. Extract the UCR zip to a folder, and run `UCR.exe`![](https://i.imgur.com/2AtcFGC.png)
+4. Click the + button next to `Profiles`, name it `MW5`, then in the left `Input Devices` column, check all the sticks you wish to use with MW5 and in the right `Output Devices` column, check `vJoy Stick 1`
+   ![](https://i.imgur.com/RhVaep0.gif)
+5. Click `Create`, a new window should appear
+   ![](https://i.imgur.com/VtXf242.png)
 
 
 
@@ -92,8 +88,8 @@ Click `Create`, a new window should appear
 
 3. Click the Save button (Floppy disk icon) in the top left of the window
 
-4. Click the Play icon next to the Save button
-   The X axis of your stick should now operate the X axis of the vJoy stick.
+4. Click the Play icon next to the Save button  
+   The X axis of your stick should now operate the X axis of the vJoy stick.  
    You can use the vJoy monitor to verify that this is the case - it should look like this when you move the X axis of your stick:  
    ![](https://i.imgur.com/m2vZPyZ.gif)
 
@@ -115,9 +111,9 @@ Click `Create`, a new window should appear
 
 ### Step 6 - Configure Axes as required in UCR / MW5
 
-1. Tab back into UCR and click the Stop icon at the top the profile
+1. Tab back into UCR and click the Stop icon at the top the profile  
    **You will not be able to edit the UCR profile while it is active!**
-2. Use additional `Axis To Axis` plugins to map physical stick axes to vJoy axes (As in Step 4.1 above)
+2. Use additional `Axis To Axis` plugins to map physical stick axes to vJoy axes (As in Step 4.1 above)  
    **Only use the first 4 vJoy axes (X, Y, Z and Rx)**. X maps to `Joystick Axis 1` in the MW5 menu, Y maps to `Joystick Axis 2`, etc...
    ![](https://i.imgur.com/IwKmPBf.png)
    You can use the `Input` drop-down (That is showing `T.16000M` in the screenshot above) to select which of your input devices the input comes from
