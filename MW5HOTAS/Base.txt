@@ -1,0 +1,48 @@
+﻿START_BIND
+NAME: vJoy Stick
+VID: 0x1234
+PID: 0xBEAD
+BUTTON: InButton=GenericUSBController_Button1, OutButtons=Joystick_Button1
+BUTTON: InButton=GenericUSBController_Button2, OutButtons=Joystick_Button2
+BUTTON: InButton=GenericUSBController_Button3, OutButtons=Joystick_Button3
+BUTTON: InButton=GenericUSBController_Button4, OutButtons=Joystick_Button4
+BUTTON: InButton=GenericUSBController_Button5, OutButtons=Joystick_Button5
+BUTTON: InButton=GenericUSBController_Button6, OutButtons=Joystick_Button6
+BUTTON: InButton=GenericUSBController_Button7, OutButtons=Joystick_Button7
+BUTTON: InButton=GenericUSBController_Button8, OutButtons=Joystick_Button8
+BUTTON: InButton=GenericUSBController_Button9, OutButtons=Joystick_Button9
+BUTTON: InButton=GenericUSBController_Button10, OutButtons=Joystick_Button10
+BUTTON: InButton=GenericUSBController_Button11, OutButtons=Joystick_Button11
+BUTTON: InButton=GenericUSBController_Button12, OutButtons=Joystick_Button12
+BUTTON: InButton=GenericUSBController_Button13, OutButtons=Joystick_Button13
+BUTTON: InButton=GenericUSBController_Button14, OutButtons=Joystick_Button14
+BUTTON: InButton=GenericUSBController_Button15, OutButtons=Joystick_Button15
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button16
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button17
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button18
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button19
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button20
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button21
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button22
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button23
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button24
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button25
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button26
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button27
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button28
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button29
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button30
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button31
+BUTTON: InButton=GenericUSBController_Button16, OutButtons=Joystick_Button32
+BUTTON: InButton=GenericUSBController_Hat1, OutButtons=Joystick_Hat_1
+BUTTON: InButton=GenericUSBController_Hat2, OutButtons=Joystick_Hat_2
+BUTTON: InButton=GenericUSBController_Hat3, OutButtons=Joystick_Hat_3
+BUTTON: InButton=GenericUSBController_Hat4, OutButtons=Joystick_Hat_4
+BUTTON: InButton=GenericUSBController_Hat5, OutButtons=Joystick_Hat_5
+BUTTON: InButton=GenericUSBController_Hat6, OutButtons=Joystick_Hat_6
+BUTTON: InButton=GenericUSBController_Hat7, OutButtons=Joystick_Hat_7
+BUTTON: InButton=GenericUSBController_Hat8, OutButtons=Joystick_Hat_8
+AXIS: InAxis=GenericUSBController_Axis1, OutAxis=Joystick_Axis1, Invert=FALSE, Offset=-0.5, DeadZoneMin=0.0, DeadZoneMax=0.0, MapToDeadZone=FALSE
+AXIS: InAxis=GenericUSBController_Axis2, OutAxis=Joystick_Axis2, Invert=FALSE, Offset=-0.5, DeadZoneMin=0.0, DeadZoneMax=0.0, MapToDeadZone=FALSE
+AXIS: InAxis=GenericUSBController_Axis3, OutAxis=Joystick_Axis3, Invert=FALSE, Offset=-0.5, DeadZoneMin=0.0, DeadZoneMax=0.0, MapToDeadZone=FALSE
+AXIS: InAxis=GenericUSBController_Axis4, OutAxis=Joystick_Axis4, Invert=FALSE, Offset=-0.5, DeadZoneMin=0.0, DeadZoneMax=0.0, MapToDeadZone=FALSE
