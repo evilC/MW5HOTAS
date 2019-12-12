@@ -12,12 +12,12 @@ We will be setting up MW5 to ignore all your physical sticks and instead take in
 
 2. Reboot after installing vJoy
 
-3. Start > Configure vJoy
-   Configure it like this:
+3. Start > Configure vJoy  
+   Configure it like this:  
 
    ![](https://i.imgur.com/0DqL0q1.png)
 
-   Reboot if required
+   Reboot if required  
 
 4. Open the vJoy Monitor  
    Start > vJoy Monitor  
