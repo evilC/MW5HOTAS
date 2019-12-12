@@ -10,5 +10,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Deprecated
 ### Fixed
 
+##[0.0.2] - 2019-12-12  
+- Fixed OutButton 17-32 being all mapped to InButton 16
+
 ##[0.0.1] - 2019-12-11  
 Initial commit
