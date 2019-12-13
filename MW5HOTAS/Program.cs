@@ -8,13 +8,13 @@ using SharpDX.DirectInput;
 
 namespace MW5HOTAS
 {
-    class Program
+    public class Program
     {
         public static DirectInput DiInstance = new DirectInput();
         private static readonly List<string> _foundDevices = new List<string>();
         private static string _settingsFileName = "HOTASMappings.Remap";
 
-        static void Main(string[] args)
+        public static void Main()
         {
             var diDeviceInstances = DiInstance.GetDevices();
 
@@ -37,7 +37,6 @@ namespace MW5HOTAS
 
             Console.WriteLine($"\nDone\nCreated settings file {_settingsFileName}\n\nPress ENTER to exit");
             Console.ReadLine();
-
         }
 
         public static bool IsStickType(DeviceInstance deviceInstance)
@@ -57,6 +56,5 @@ namespace MW5HOTAS
                    $"VID: 0x{joystick.Properties.VendorId:X4}\n" +
                    $"PID: 0x{joystick.Properties.ProductId:X4}\n\n";
         }
-
     }
 }
