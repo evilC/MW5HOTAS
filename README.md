@@ -130,7 +130,7 @@ The MW5HOTAS tool creates a custom `HOTASMappings.Remap` file that tells MW5 to 
 ### Step 7 - Configure Buttons
 
 1. This is basically the same as configuring axes, use a `Button To Button` plugin in UCR to map a button from one of your physical sticks to a button on the vJoy stick
-
+1. MW5 only supports 20 buttons for each of it's "devices" (The stick and the throttle), so MW5HOTAS maps buttons 1-20 of the vJoy stick to "Stick 1-20" buttons and buttons 21-40 of the vJoy stick to "Throttle 1-20" buttons
 
 
 ### Additional information
