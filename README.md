@@ -1,7 +1,9 @@
 # MW5HOTAS
  A tool and guide to assist configuring HOTAS controllers in Mechwarrior 5
 
-It will allow you to use **any** DirectInput compatible devices with MW5
+It will allow you to use **any** DirectInput compatible devices with MW5  
+
+Reference link to PGI's [HOTAS Remapping Documentation](https://static.mw5mercs.com/docs/MW5HotasRemappingDocumentation.pdf)
 
 ### Step 1 - Install the vJoy device driver
 
